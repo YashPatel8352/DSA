@@ -13,7 +13,7 @@ void print(int a[])
 void Quicksort(int a[],int first,int last)
 {
     int i,j,temp,pivot;
-    if(first<last)
+    if(first < last)
     {
         print(a);
         pivot = first;
